@@ -1,3 +1,24 @@
 <!--Read the wiki for more info on using custom recipes https://github.com/al132mc/alchemistry/wiki -->
 <recipes>
+
+<recipe type="dissolver">
+<input>minecraft:dragon_breath</input>
+<output type="absolute">
+<group probability="90">
+<item quantity="9">water</item>
+</group>
+</output>
+</recipe>
+<recipe type="combiner">
+<input>
+<item key="A" quantity="3">water</item>
+<row>AAA</row>
+<row> </row>
+<row> </row>
+</input>
+<output>
+<item>minecraft:dragon_breath</item>
+</output>
+</recipe>
+
 </recipes>
